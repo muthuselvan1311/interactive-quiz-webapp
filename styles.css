@@ -1,0 +1,73 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#quiz-container, #results-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.btn-answer {
+    text-align: left;
+    padding: 15px 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.btn-answer:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.btn-answer.correct {
+    background-color: #28a745;
+    color: white;
+}
+
+.btn-answer.incorrect {
+    background-color: #dc3545;
+    color: white;
+}
+
+.progress {
+    border-radius: 10px;
+}
+
+#timer {
+    font-size: 1.1rem;
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+
+#results-container .card {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+#score-bar {
+    transition: width 1.5s ease-in-out;
+}
+
+/* Animation classes */
+.animate-delay-1 {
+    animation-delay: 0.2s;
+}
+
+.animate-delay-2 {
+    animation-delay: 0.4s;
+}
+
+.animate-delay-3 {
+    animation-delay: 0.6s;
+}
+
+.animate-delay-4 {
+    animation-delay: 0.8s;
+}
